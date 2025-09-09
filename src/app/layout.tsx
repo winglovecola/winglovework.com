@@ -3,7 +3,7 @@ import "./globals.css";
 import "./style.css";
 
 export const metadata: Metadata = {
-  title: "Wing's Protfolio",
+  title: "Wing's Portfolio",
   description: "",
 };
 
