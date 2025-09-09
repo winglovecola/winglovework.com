@@ -76,7 +76,8 @@ const ContactForm = () => {
           .then(
             () => {
               setEmailErrors('');
-              setEmailConfirmationMsg(`Message sent successfully!\n\nThank you for contacting us.\nWe will get back to you as soon as possible.`);
+              setEmailConfirmationMsg(`"Message sent successfully!\n\nThank you for contacting me.\n\nI will get back to you as soon as possible."
+`);
               
               console.log('SUCCESS!');
             },
@@ -134,8 +135,8 @@ const ContactForm = () => {
         />
 
         <div className='w-full'>
-          {emailConfirmationMsg && <div className='text-2xl text-green-500 w-full text-center whitespace-pre-line'>{emailConfirmationMsg}</div>}
-          {emailErrors && <div className='text-2xl text-red-500 w-full text-center whitespace-pre-line'>{emailErrors}</div>}
+          {emailConfirmationMsg && <div className='text-2xl text-green-500 w-full text-left whitespace-pre-line'>{emailConfirmationMsg}</div>}
+          {emailErrors && <div className='text-2xl text-red-500 w-full text-left whitespace-pre-line'>{emailErrors}</div>}
         </div>
 
 
