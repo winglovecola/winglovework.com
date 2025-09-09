@@ -33,17 +33,6 @@ export default function Home() {
               </div>
           </div>  */}
 
-          <div id="workapp1" className="workapp-child">
-              <div className="title">
-                <h2>Love Link</h2>
-                <span>Firebase Chat / Virtual AI</span>
-              </div>
-
-              <div className="links">
-{/*                   <div>App: <a href="https://love-link.herokuapp.com/" target="_blank" rel="noreferrer">https://love-link.herokuapp.com</a></div> */}
-                  <div>GitHub: <a href="https://github.com/winglovecola/love-link" target="_blank" rel="noreferrer">https://github.com/winglovecola/love-link</a></div>
-              </div>
-          </div>
 
           <div id="workapp2" className="workapp-child">
               <div className="title">
@@ -70,17 +59,7 @@ export default function Home() {
               </div>
           </div>
 
-          <div id="workapp6" className="workapp-child">
-              <div className="title">
-                <h2>Oracle</h2>
-                <span>Voice Recognition / Text to Speech / ChatGPT API</span>
-              </div>
 
-              <div className="links">
-                  {/* <div>App: <a href="https://oracle-online-aa3863530ca8.herokuapp.com/" target="_blank" rel="noreferrer">https://oracle-online-aa3863530ca8.herokuapp.com/</a></div> */}
-                  <div>GitHub: <a href="https://github.com/winglovecola/oracle" target="_blank" rel="noreferrer">https://github.com/winglovecola/oracle</a></div>
-              </div>
-          </div>
 
           <div id="workapp7" className="workapp-child">
             <div  className="title">
@@ -107,6 +86,30 @@ export default function Home() {
           </div>
 
 
+          <div id="workapp1" className="workapp-child">
+              <div className="title">
+                <h2>Love Link</h2>
+                <span>Firebase Chat / Virtual AI</span>
+              </div>
+
+              <div className="links">
+{/*                   <div>App: <a href="https://love-link.herokuapp.com/" target="_blank" rel="noreferrer">https://love-link.herokuapp.com</a></div> */}
+                  <div>GitHub: <a href="https://github.com/winglovecola/love-link" target="_blank" rel="noreferrer">https://github.com/winglovecola/love-link</a></div>
+              </div>
+          </div>
+
+
+          <div id="workapp6" className="workapp-child">
+              <div className="title">
+                <h2>Oracle</h2>
+                <span>Voice Recognition / Text to Speech / ChatGPT API</span>
+              </div>
+
+              <div className="links">
+                  {/* <div>App: <a href="https://oracle-online-aa3863530ca8.herokuapp.com/" target="_blank" rel="noreferrer">https://oracle-online-aa3863530ca8.herokuapp.com/</a></div> */}
+                  <div>GitHub: <a href="https://github.com/winglovecola/oracle" target="_blank" rel="noreferrer">https://github.com/winglovecola/oracle</a></div>
+              </div>
+          </div>
         </div>
 
       </div>
